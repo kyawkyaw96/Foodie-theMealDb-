@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ meal }) => {
   return (
-    <div className=' w-36 lg:w-60 relative border-2 border-pink-500 gap-2 rounded-lg flex flex-col p-2 lg:p-5 items-center justify-center h-[250px] lg:h-[350px] shadow-lg hover:shadow-xl hover:scale-105 transition-all hover:duration-300 my-2'>
+    <div className=' w-36 lg:w-60 relative border-2 border-gray-200 gap-2 rounded-lg flex flex-col p-2 lg:p-5 items-center justify-center h-[250px] lg:h-[350px] shadow-lg hover:shadow-xl hover:scale-105 transition-all hover:duration-300 my-2'>
       <img
         src={meal?.strMealThumb}
         alt=''
